@@ -1,7 +1,14 @@
 import React from 'react 
 
 
-export function (){
-    return()
-     
-}'
+ function detalhePokemon  (){
+    return(
+
+        <div>
+
+        </div>
+    )
+
+}
+
+export default detalhePokemon
