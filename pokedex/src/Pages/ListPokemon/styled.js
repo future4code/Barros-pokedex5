@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-export const HomeContainer = styled.main`
-  width: 80vw;
-  height: 85vh;
+export const ListPokemonContainer = styled.main`
+  background-color: blue;
+  width: 100vw;
+  height: 87vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

@@ -1,18 +1,18 @@
-layla-home
-import React from 'react';
-import axios from 'axios';
-import "./App.css";
+import React from 'react'
+import DetailsPokemon from './Pages/DetailsPokemon/DetailsPokemon'
+import ListPokemon from './Pages/ListPokemon/ListPokemon'
+import { Pokedex } from './Pages/Pokedex/Pokedex'
+import { BrowserRouter, Routes } from 'react-router-dom'
+import {Router} from './routes/Router'
 
 
-const app=() => {
-  
 
+function App(){
   return (
-    <h1>Pokedex - V0</h1>
-    
-  );
-};
+      <ListPokemon></ListPokemon>
+      
+     
+  )
+}
 
-export default app;
-
-
+export default App;
