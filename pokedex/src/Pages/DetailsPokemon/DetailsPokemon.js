@@ -2,8 +2,10 @@ import React from "react";
 
 
 
-export const Home = () => {
+export function DetailsPokemon() {
     return (
-        <p>Detalhes</p>
+        <h1>Página Detalhes do Pokemon</h1>
     )
 };
+
+export default DetailsPokemon;

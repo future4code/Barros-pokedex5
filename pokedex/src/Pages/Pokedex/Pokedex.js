@@ -4,6 +4,6 @@ import React from "react";
 
 export const Pokedex = () => {
     return (
-        <p>Pokedex</p>
+        <h1>Página Pokedex</h1>
     )
 };

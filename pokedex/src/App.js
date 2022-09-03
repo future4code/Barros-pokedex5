@@ -1,26 +1,18 @@
-<<<<<<< HEAD
-=======
-layla-home
->>>>>>> a6c2798c3b754a2dbc2be9fd9c6db1af0246a8a2
-import React from 'react';
-import Router from "./routes/Router";
-import axios from 'axios';
-import "./App.css";
+import React from 'react'
+import DetailsPokemon from './Pages/DetailsPokemon/DetailsPokemon'
+import ListPokemon from './Pages/ListPokemon/ListPokemon'
+import { Pokedex } from './Pages/Pokedex/Pokedex'
+import { BrowserRouter, Routes } from 'react-router-dom'
+import {Router} from './routes/Router'
 
 
-const App=() => {
-  
 
+function App(){
   return (
-    <Router/>
-    
-  );
-};
+      <ListPokemon></ListPokemon>
+      
+     
+  )
+}
 
-<<<<<<< HEAD
 export default App;
-=======
-export default app;
-
-
->>>>>>> a6c2798c3b754a2dbc2be9fd9c6db1af0246a8a2
