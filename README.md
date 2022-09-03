@@ -1,9 +1,9 @@
 # POKEDEX
 
 Nome dos integrantes: 
-- Pessoa 1
-- Pessoa 2
-- Pessoa 3
+- Ariane Lopes
+- Fagner Fontes Batista
+- Layla Janaína Hissa Borges
 
 Link do Surge: www.link.com.br
 
