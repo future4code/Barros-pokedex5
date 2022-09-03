@@ -1,13 +1,18 @@
-import React, { useEffect } from "react";
-import Router from './Components/Router';
+layla-home
+import React from 'react';
+import axios from 'axios';
+import "./App.css";
 
-function App() {
-  useEffect(() => {
-    document.title = "POKEDEX"
-  })
+
+const app=() => {
+  
+
   return (
-    <Router/>
+    <h1>Pokedex - V0</h1>
     
-  )
-}
-export default App;
+  );
+};
+
+export default app;
+
+
