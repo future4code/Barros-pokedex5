@@ -4,6 +4,6 @@ import React from "react";
 
 export const Home = () => {
     return (
-        <p>oi</p>
+        <p>Lista</p>
     )
 };

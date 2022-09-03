@@ -1,31 +1,16 @@
-<<<<<<< HEAD
 import React from 'react';
+import Router from "./routes/Router";
 import axios from 'axios';
 import "./App.css";
 
 
-const app=() => {
+const App=() => {
   
 
   return (
-    <h1>Pokedex - V0</h1>
+    <Router/>
     
   );
 };
 
-export default app;
-=======
-import React, { useEffect } from "react";
-import Router from './Components/Router';
-
-function App() {
-  useEffect(() => {
-    document.title = "POKEDEX"
-  })
-  return (
-    <Router/>
-    
-  )
-}
 export default App;
->>>>>>> master
