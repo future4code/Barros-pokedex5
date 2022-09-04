@@ -1,13 +1,18 @@
-import React, { useEffect } from "react";
-import Router from './Components/Router';
+import React from 'react'
+import DetailsPokemon from './Pages/DetailsPokemon/DetailsPokemon';
+import ListPokemon from './Pages/ListPokemon/ListPokemon';
+import { Pokedex } from './Pages/Pokedex/Pokedex';
+import { BrowserRouter, Routes } from 'react-router-dom'
+import {Router} from './routes/Router'
 
-function App() {
-  useEffect(() => {
-    document.title = "POKEDEX"
-  })
+
+
+function App(){
   return (
-    <Router/>
-    
+      <Router />
+      
+     
   )
 }
+
 export default App;
