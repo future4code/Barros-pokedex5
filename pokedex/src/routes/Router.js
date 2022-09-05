@@ -1,4 +1,5 @@
 import React from "react";
+import ListPokemon from "../Pages/ListPokemon/ListPokemon";
 import {ListPokemon} from "../Pages/ListPokemon/ListPokemon";
 import {Pokedex} from "../Pages/Pokedex/Pokedex";
 import {DetailsPokemon} from "../Pages/DetailsPokemon/DetailsPokemon";
@@ -9,9 +10,13 @@ export function Router() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route exact path={"/"} element={<ListPokemon/>} />
-                <Route path={"/Pokedex"} element={<Pokedex/>} />
-                <Route path={"/DetailsPokemon"} element={ <DetailsPokemon/>} />
+
+                <Route index element={<ListPokemon/>} />
+                <Route path={"/pokedex"} element={<Pokedex/>} />
+                <Route path={"/detailsPokemon"} element={ <DetailsPokemon/>} />
+                
+                
+                
             </Routes>
         </BrowserRouter>
     )
