@@ -7,12 +7,14 @@ import {Router} from './routes/Router'
 
 
 
+
 function App(){
   return (
+layla-home
+
 
       <Router />
-
-     
+    
   )
 }
 

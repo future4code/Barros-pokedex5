@@ -8,3 +8,10 @@ export const ListPokemonContainer = styled.main`
   flex-wrap: wrap;
   justify-content: space-around;
 `;
+
+export const Titulo= styled.h1`
+  position: relative;
+  color:black;
+  text-align:center;
+  font-size: 1.9em;
+`
