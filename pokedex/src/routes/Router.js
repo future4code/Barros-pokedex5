@@ -12,6 +12,8 @@ export function Router() {
                 <Route index element={<ListPokemon/>} />
                 <Route path={"/pokedex"} element={<Pokedex/>} />
                 <Route path={"/detailsPokemon"} element={ <DetailsPokemon/>} />
+
+
             </Routes>
         </BrowserRouter>
     )

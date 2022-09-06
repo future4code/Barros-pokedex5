@@ -21,12 +21,12 @@ import { Header } from "../../Components/Header/Header";
 
 export default ListPokemon;*/
 
+
 export function ListPokemon() {
     return (
         <h1>Página Lista de Pokemon (Home)</h1>
 
 
-        
        // <Header/>
        // <CardPokemon/>
     )
