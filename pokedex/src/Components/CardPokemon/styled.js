@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const CardContainer = styled.div`
   border: 2px solid black;
@@ -8,4 +8,8 @@ export const CardContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 10px;
+`;
+
+export const NamePokemon = styled.h2`
+  margin: 10px 0;
 `;

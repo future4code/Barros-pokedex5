@@ -1,16 +1,19 @@
 import React from "react";
 import {
-  //ProductImage,
+  
   CardContainer,
+  NamePokemon
 
 
-  //NameText
 } from "./styled";
 
  
-       export const CardPokemon = ({ pokemon, addToCart }) => {
+      const CardPokemon = ({ pokemon }) => {
+
+        
           return (
             <CardContainer>
+              <NamePokemon>{}</NamePokemon>
                 <h1>Cartão Pokemon</h1>
              
             

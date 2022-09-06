@@ -1,26 +1,43 @@
 import React from "react";
-import { CardPokemon } from "../../Components/CardPokemon/CardPokemon";
+import  CardPokemon  from "../../Components/CardPokemon/CardPokemon";
 import { Header } from "../../Components/Header/Header";
 import useRequestData from "../../Hooks/UseRequestData";
 import { BASE_URL } from "../../Constantes/urls";
 import { ListPokemonContainer } from "./styled";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
+import { CardContainer } from "../../Components/CardPokemon/styled";
 
-/*function ListPokemon () {
+function ListPokemon () {
     const navigate = useNavigate();
     
     const goToPokedex = () => {
         navigate("/pokedex")
     }
+
+  
+    const data = useRequestData(`${BASE_URL}`);
+    console.log(data)
+   
+
     return (
-        <section>
+       
+    
+            <main>
+                <ListPokemonContainer>
+                    
+                    <CardPokemon/>
+                    <CardPokemon/>
+                </ListPokemonContainer>
+                
             <h1> Lista Pokemon (Home) </h1>
             <button onClick={ goToPokedex}>Entrar</button>
-        </section>
+       </main>
     )
 }
-export default ListPokemon;*/
+export default ListPokemon;
 
-
+/*
 export function ListPokemon() {
     const data = useRequestData(`${BASE_URL}`);
     return (
@@ -38,3 +55,4 @@ export function ListPokemon() {
 };
 
 export default ListPokemon;
+*/

@@ -4,7 +4,7 @@ import ListPokemon from './Pages/ListPokemon/ListPokemon'
 import { Pokedex } from './Pages/Pokedex/Pokedex'
 import { BrowserRouter, Routes } from 'react-router-dom'
 import {Router} from './routes/Router'
-import { CardContainer } from './Components/CardPokemon/styled'
+
 
 
 
@@ -12,7 +12,7 @@ function App(){
   return (
      
       <Router/>
-     
+    
   )
 }
 
