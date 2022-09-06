@@ -1,4 +1,5 @@
 import React from "react";
+
 import  CardPokemon  from "../../Components/CardPokemon/CardPokemon";
 import { Header } from "../../Components/Header/Header";
 import useRequestData from "../../Hooks/UseRequestData";
@@ -7,6 +8,7 @@ import { ListPokemonContainer } from "./styled";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { CardContainer } from "../../Components/CardPokemon/styled";
+
 
 function ListPokemon () {
     const navigate = useNavigate();
@@ -19,6 +21,8 @@ function ListPokemon () {
     const data = useRequestData(`${BASE_URL}`);
     console.log(data)
    
+
+
 
     return (
        
@@ -41,6 +45,7 @@ export default ListPokemon;
 export function ListPokemon() {
     const data = useRequestData(`${BASE_URL}`);
     return (
+
         
         <ListPokemonContainer>
             <h1>Página Lista de Pokemon (Home)</h1>
@@ -48,6 +53,8 @@ export function ListPokemon() {
             return <CardPokemon key={pokemon.id} pokemon={pokemon} /> // FAlta adicionar addtocart
           })}
           </ListPokemonContainer>
+
+
 
        // <Header/>
        // <CardPokemon/>
