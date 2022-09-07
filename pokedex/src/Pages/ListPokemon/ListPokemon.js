@@ -1,5 +1,4 @@
 import React from "react";
-
 import  CardPokemon  from "../../Components/CardPokemon/CardPokemon";
 import { Header } from "../../Components/Header/Header";
 import useRequestData from "../../Hooks/UseRequestData";

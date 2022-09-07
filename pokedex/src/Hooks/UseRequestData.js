@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import axios from 'axios'
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 const useRequestData = (url) => {
   const [data, setData] = useState()
@@ -19,4 +19,4 @@ const useRequestData = (url) => {
   return data
 }
 
-export default useRequestData
+export default useRequestData;
