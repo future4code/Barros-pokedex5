@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  
-  CardContainer,
-  NamePokemon
-
-
-} from "./styled";
+import {CardContainer, NamePokemon} from "./styled";
 
  
       const CardPokemon = ({ pokemon }) => {
