@@ -2,8 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { goToDetailsPokemon } from "../../routes/coordinator";
 
-
-
 export function DetailsPokemon() {
 
     const navigate = useNavigate(); 
@@ -11,8 +9,6 @@ export function DetailsPokemon() {
     const goToDetailsPokemon = () =>{
         navigate("/DetailsPokemon")
     }
-
-
 
     return (
 
