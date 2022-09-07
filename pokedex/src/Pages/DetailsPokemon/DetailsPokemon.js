@@ -19,7 +19,7 @@ export function DetailsPokemon() {
 
         
         <section>
-        <h1>Página Detalhes do Pokemon</h1>
+        <h1>Fagner Fontes</h1>
 
         <button onClick={ goToDetailsPokemon}>Voltar</button>
         </section>
