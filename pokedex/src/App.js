@@ -10,19 +10,12 @@ import {Router} from './routes/Router'
 
 function App(){
   return (
-<<<<<<< HEAD
 
 
 
       <Router />
     
   )
-=======
-    <div className="App">
- 
-    </div>
-  );
->>>>>>> fagner
 }
 
 export default App;
