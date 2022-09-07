@@ -1,10 +1,4 @@
 import React from "react";
-import  CardPokemon  from "../../Components/CardPokemon/CardPokemon";
-import { Header } from "../../Components/Header/Header";
-import useRequestData from "../../Hooks/UseRequestData";
-import { BASE_URL } from "../../Constantes/urls";
-import { ListPokemonContainer } from "./styled";
-import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { CardPokemon } from "../../Components/CardPokemon/CardPokemon";
 import { Header } from "../../Components/Header/Header";
