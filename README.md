@@ -6,17 +6,18 @@ Nome dos integrantes:
 - Layla Janaína Hissa Borges
 
 # Link do Surge: 
-  cold-wheel.surge.sh
+  http://new-quartz.surge.sh/
 
 
 
 # Imagens
 
-<img width="934" alt="image" src="https://user-images.githubusercontent.com/99913142/189504640-28774ade-8f2c-4161-8c0f-c0ea54535a88.png">
+<img width="940" alt="image" src="https://user-images.githubusercontent.com/99913142/189543076-59b3fa90-4126-438d-b067-b4b88b9ac7fc.png">
 
 # O que funciona:
-- Item 1
-- Item 2
+- Página Home com os cards dos Pokemons com nomes e imagems
+- Botão Adicionar Pokemon
+- Quando o Pokemon é adicionado, o card desse Pokemon some da home
 
 # O que não funciona: 
 - Item 3
