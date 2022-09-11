@@ -18,6 +18,9 @@ import { Titulo } from "./styled";
 
 
 
+
+
+
 const ListPokemon = () => {
   const { pokemons } = useContext(GlobalStateContext);
 

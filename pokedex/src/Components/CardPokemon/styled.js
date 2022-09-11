@@ -50,3 +50,7 @@ background-color: "#f1f1f1";
  
 `;
 
+export const ButtonAddRemoveContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+`;

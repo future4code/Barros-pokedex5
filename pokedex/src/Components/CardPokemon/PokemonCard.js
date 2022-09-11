@@ -4,6 +4,7 @@ import {
   CardContainer,
   ImagemContainer,
   ImagemPokemon,
+  ButtonAddRemoveContainer
  
 } from "./styled";
 import ContextGlobalState from "../../Context/ContextGlobalState";
@@ -62,6 +63,12 @@ const PokemonCard = (props) => {
         />
       </ImagemContainer>
    
+      <ButtonAddRemoveContainer>
+      <button onClick={props.isPokedex ? removeFromPokedex : addToPokedex}>
+          {props.isPokedex ? "Remover" : "Adicionar Pokemon"}
+        </button>
+        
+      </ButtonAddRemoveContainer>
 
     </CardContainer>
   );
