@@ -12,7 +12,7 @@ const useRequestData = (url) => {
       })
       .catch((error) => {
         console.log(error)
-        alert('Ocorreu um erro, tente novamente')
+        alert('Erro, mas oxê!')
       })
   }, [url])
 

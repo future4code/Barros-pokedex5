@@ -1,21 +1,13 @@
-import React from 'react'
-import DetailsPokemon from './Pages/DetailsPokemon/DetailsPokemon';
-import ListPokemon from './Pages/ListPokemon/ListPokemon';
-import { Pokedex } from './Pages/Pokedex/Pokedex';
-import { BrowserRouter, Routes } from 'react-router-dom'
-import {Router} from './routes/Router'
 
+import React from "react";
+import {Router }from "./routes/Router";
+import StateGlobal from "./Context/StateGlobal";
 
-
-
-function App(){
+export default function App() {
   return (
-
-
-
+    <StateGlobal>
       <Router />
-    
-  )
+    </StateGlobal>
+  );
 }
 
-export default App;
