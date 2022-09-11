@@ -6,6 +6,7 @@ import { ListPokemonContainer } from "./styled";
 import { useNavigate } from "react-router-dom";
 
 
+<<<<<<< HEAD
 import React, { useContext } from "react";
 
 import { Header } from "../../Components/Header/styled";
@@ -54,6 +55,9 @@ export default ListPokemon;
 //----------------------------------------
 /*
 const ListPokemon = () => {
+=======
+function ListPokemon () {
+>>>>>>> master
     const navigate = useNavigate();
     
     const goToPokedex = () => {
@@ -63,7 +67,15 @@ const ListPokemon = () => {
     const data = useRequestData(`${BASE_URL}`);
    
 
+<<<<<<< HEAD
     return (  
+=======
+
+
+    return (
+       
+    
+>>>>>>> master
             <main>
                 <Titulo> Lista Pokemon (Home) </Titulo>
                 <ListPokemonContainer>
@@ -88,6 +100,7 @@ export default ListPokemon;
 export function ListPokemon() {
     const data = useRequestData(`${BASE_URL}`);
     return (
+
         
         <ListPokemonContainer>
             <h1>Página Lista de Pokemon (Home)</h1>
@@ -95,6 +108,8 @@ export function ListPokemon() {
             return <CardPokemon key={pokemon.id} pokemon={pokemon} /> // FAlta adicionar addtocart
           })}
           </ListPokemonContainer>
+
+
 
        // <Header/>
        // <CardPokemon/>
