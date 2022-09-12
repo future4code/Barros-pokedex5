@@ -9,8 +9,11 @@ import {
  
 } from "./styled";
 import ContextGlobalState from "../../Context/ContextGlobalState";
+import { goToDetailsPokemon } from "../../routes/coordinator";
+import { navigate, useNavigate } from "react-router-dom";
 
 const PokemonCard = (props) => {
+  const navigate = useNavigate()
  
   const { pokemons, setPokemons, pokedex, setPokedex } = useContext(
     ContextGlobalState
@@ -72,8 +75,11 @@ const PokemonCard = (props) => {
       <button onClick={props.isPokedex ? removeFromPokedex : addToPokedex}>
           {props.isPokedex ? "Remover" : "Adicionar Pokemon"}
         </button>
-        
       </ButtonAddRemoveContainer>
+      
+        
+      <button onClick={()=>{goToDetailsPokemon(navigate, pokemons.name)}}>Ver detalhes</button>
+      
 
     </CardContainer>
   );
