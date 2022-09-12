@@ -14,6 +14,10 @@ export const ListContainer = styled.main`
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: #00008B;
+  
 `;
+
+
+
 
 
