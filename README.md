@@ -1,16 +1,24 @@
 # POKEDEX
 
 Nome dos integrantes: 
-- Pessoa 1
-- Pessoa 2
-- Pessoa 3
+- Ariane Lopes
+- Fagner Fontes Batista
+- Layla Janaína Hissa Borges
 
-Link do Surge: www.link.com.br
+# Link do Surge: 
+  useful-desire.surge.sh
 
-O que funciona:
-- Item 1
-- Item 2
 
-O que não funciona: 
+
+# Imagens
+
+<img width="940" alt="image" src="https://user-images.githubusercontent.com/99913142/189543076-59b3fa90-4126-438d-b067-b4b88b9ac7fc.png">
+
+# O que funciona:
+- Página Home com os cards dos Pokemons com nomes e imagems
+- Botão Adicionar Pokemon
+- Quando o Pokemon é adicionado, o card desse Pokemon some da home
+
+# O que não funciona: 
 - Item 3
 - Item 4
