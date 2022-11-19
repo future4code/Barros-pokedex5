@@ -20,5 +20,5 @@ Nome dos integrantes:
 - Quando o Pokemon é adicionado, o card desse Pokemon some da home
 
 # O que não funciona: 
-- Item 3
+- Página detalhes do Pokemon
 - Item 4
